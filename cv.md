@@ -14,6 +14,7 @@ And hopefully soon i will find my first job as a web developer
 ## My skills:
  * HTML5
  * CSS3
+ * JavaScript - Basics
  * Photoshop and Figma for development
  * VS Code
 ## Code example:
