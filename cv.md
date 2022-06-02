@@ -12,8 +12,8 @@ I have some knowledge of html and css. To improve the acquired knowledge and acq
 
 And hopefully soon i will find my first job as a web developer
 ## My skills:
- * HTML
- * CSS
+ * HTML5
+ * CSS3
  * Photoshop and Figma for development
  * VS Code
 ## Code example:
