@@ -347,3 +347,79 @@ img{
     font-size: 1.5em;
     font-weight: 500;
 }
+
+/*main__contacts*/
+
+.contacts{
+    background-color: #edd2d9;
+}
+
+.contacts__title{
+    text-align: center;
+}
+
+.contacts__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts__item{
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding-left: 50px;
+}
+
+.contacts__text{
+    color: #1b0b5f;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+.contacts__link{
+    padding: 1rem 0;
+    color: #733236;
+    transition: all ease 0.5s;
+    display: inline-block;
+    position: relative;
+    line-height: 1;
+}
+
+.contacts__link::before{
+    position: absolute;
+    display: block;
+    content: "";
+    width: 0;
+    right: 0;
+    height: 3px;
+    bottom: 5px;
+}
+
+.contacts__link:hover{
+    color: #bb298f;
+    text-shadow: 0 2px 10px rgba(218, 55, 169, 0.9);
+    transition: all ease 0.5s;
+}
+
+.contacts__link:hover::before{
+    width: 100%;
+    left: 0;
+    background-color: #da37a9;
+    transition: all ease-in-out 1s;
+    box-shadow: 0 2px 10px rgba(218, 55, 169, 0.9);
+}
+
+.contacts__item_loc{
+    background-image: url(./assets/icon/location.png);
+}
+
+.contacts__item_mail{
+    background-image: url(./assets/icon/email.png);
+}
+
+.contacts__item_githab{
+    background-image: url(./assets/icon/github.png);
+}
+
+.contacts__item_discord{
+    background-image: url(./assets/icon/discord.png);
+}
