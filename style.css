@@ -423,3 +423,34 @@ img{
 .contacts__item_discord{
     background-image: url(./assets/icon/discord.png);
 }
+
+/*footer*/
+
+.footer{
+    background-color: #9b7982;
+    color: #eed6ef;
+    padding: 30px;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discord-link{
+    color: #eed6ef;
+    transition: all ease .5s;
+}
+
+.discord-link:hover{
+    color: #fff;
+}
+
+.rss-link{
+    width: 121px;
+    height: 45px;
+    background-image: url(./assets/icon/rss.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
