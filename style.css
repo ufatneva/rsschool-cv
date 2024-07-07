@@ -306,3 +306,44 @@ img{
     margin: 0;
     padding: 0;
 }
+
+/*main__education*/
+
+.education{
+    background: #eed6ef;
+}
+
+.education__title{
+    text-align: center;
+}
+
+.education__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.education__item{
+    width: 30%;
+    padding: 30px;
+    background: linear-gradient(129deg, rgba(251,145,220,0.5690651260504201) 0%, rgba(147,135,255,1) 100%);
+    border-radius: 40px;
+}
+
+.education__item:hover {
+    box-shadow: 0 2px 10px rgba(218, 55, 169, 0.9);
+}
+
+.education__desc{
+    margin: 20px 0;
+}
+
+.education__time{
+    color: #bb298f;
+}
+
+.education__lang{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
