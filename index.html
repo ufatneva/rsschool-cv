@@ -3,10 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Julija Fatneva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Меня зовут Юлия</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <section class="profile">
+                <div class="profile__img">
+                    <img src="./assets/img/avatar.jpg" alt="Julija">
+                </div>
+                <div class="profile__offer">
+                    <h1 class="profile__title">Julija Fatneva</h1>
+                    <p class="profile__subtitlt">Front-end Developer</p>
+                    <a href="#contacts" class="profile__btn">Contact with me</a>
+                </div>
+            </section>
+            <section class="about">
+                <div class="about__desc" id="about">
+                    <h2 class="about__title">About me</h2>
+                    <p class="about__text">
+                        I have a higher education in the field of infocommunication technologies. At the university, we superficially touched on the topic of programming and studied html and css. It was from that moment that I became interested in IT.
+                    </p>
+                    <p class="about__text">
+                        I once took a course on web development, which gave me basic knowledge of the web. Now I am taking a course in order to improve my knowledge and acquire new ones.
+                    </p>
+                    <p class="about__text about__text_color">
+                        My dream is to become a mid-level web developer.
+                    </p>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="skills__title">Skills</h2>
+                <ul class="skills__list">
+                    <li class="skills__item skills__item_html"><span>HTMl</span></li>
+                    <li class="skills__item skills__item_css"><span>CSS</span></li>
+                    <li class="skills__item skills__item_bem"><span>БЭМ</span></li>
+                    <li class="skills__item skills__item_bst"><span>Bootstrap</span></li>
+                    <li class="skills__item skills__item_wp"><span>WordPress</span></li>
+                    <li class="skills__item skills__item_js"><span>JS</span></li>
+                    <li class="skills__item skills__item_jq"><span>jQuery</span></li>
+                    <li class="skills__item skills__item_fg"><span>Figma</span></li>
+                    <li class="skills__item skills__item_ps"><span>Photoshop</span></li>
+                </ul>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="projects__title">Projects</h2>
+                <ul class="projects__list">
+                    <li class="projects__item">
+                        <h3 class="progects__name">CV from Julija Fatneva</h3>
+                        <p class="projects__text">My CV</p>
+                        <a href="#" target="_blank" class="projects__link">
+                            <img src="./assets/img/project1.jpg" alt="Project 1" class="projects__img">
+                            <span class="projects__btn">See project</span>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <h3 class="progects__name">Future project</h3>
+                        <p class="projects__text">
+                            Description of the future project</p>
+                        <a href="#" target="_blank" class="projects__link">
+                            <img src="./assets/img/project2.jpg" alt="Project 2" class="projects__img">
+                            <span class="projects__btn">See project</span>
+                        </a>
+                    </li>
+                    <li class="projects__item">
+                        <h3 class="progects__name">Future project</h3>
+                        <p class="projects__text">Description of the future project</p>
+                        <a href="#" target="_blank" class="projects__link">
+                            <img src="./assets/img/project3.jpg" alt="Project 3" class="projects__img">
+                            <span class="projects__btn">See project</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="projects__code">
+                    <h2 class="projects__code-title">Example code</h2>
+<pre class="projects__code-pre"><code>const showMassage = () => {
+    console.log('massage');
+}
+showMassage()
+</code></pre>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <h2 class="education__title">Education</h2>
+                <ul class="education__list">
+                    <li class="education__item">
+                        <h3 class="education__name">Volga State University of Telecommunications and Informatics</h3>
+                        <p class="education__desc">Engineer of infocommunication technologies and communication systems</p>
+                        <span class="education__time">2015-2019</span>
+                    </li>
+                    <li class="education__item">
+                        <h3 class="education__name">WAYUP</h3>
+                        <p class="education__desc">Front end developer: freelance code</p>
+                        <span class="education__time">May-September 2021</span>
+                    </li>
+                    <li class="education__item">
+                        <h3 class="education__name">The Rolling Scopes Shcool</h3>
+                        <p class="education__desc">JS/Front-end Course
+                            Pre-school</p>
+                        <span class="education__time">In progress..</span>
+                    </li>
+                </ul>
+                <p class="education__lang">
+                    I am a native Russian speaker and my level of English is A1</p>
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="contacts__wrap">
+                    <h2 class="contacts__title">Contacts</h2>
+                    <ul class="contacts__list">
+                        <li class="contacts__item contacts__item_loc">
+                            <p class="contacts__text">Location</p>
+                            <a href="https://maps.app.goo.gl/qAqAJaRqFpFndwbe7" title="location" target="_blank" class="contacts__link">Orenburg, Russia</a>
+                        </li>
+                        <li class="contacts__item contacts__item_mail">
+                            <p class="contacts__text">Email</p>
+                            <a href="mailto:ufatneva.ru@mail.ru" title="email" class="contacts__link">ufatneva.ru@mail.ru</a>
+                        </li>
+                        <li class="contacts__item contacts__item_githab">
+                            <p class="contacts__text">Github</p>
+                            <a href="https://github.com/ufatneva" title="github" target="_blank" class="contacts__link">ufatneva</a>
+                        </li>
+                        <li class="contacts__item contacts__item_discord">
+                            <p class="contacts__text">Discord</p>
+                            <a href="https://discordapp.com/users/981465289248092170" title="discord" target="_blank" class="contacts__link">ufatneva</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <a href="https://discordapp.com/users/981465289248092170" title="discord" target="_blank" class="discord-link">ufatneva</a>
+            <span class="footer__year">@2024</span>
+            <a href="https://rs.school/courses/javascript-preschool-ru" title="rsshcool" target="_blank" class="rss-link"></a>
+        </div>
+    </footer>
 </body>
 </html>
