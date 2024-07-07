@@ -454,3 +454,130 @@ img{
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+/*  responsive  */
+
+@media(max-width: 1199px){
+	.container .header .footer{
+	    max-width: 960px;
+	}
+    .nav__list {
+        width: 100%;
+    }
+    .profile__img{
+        width: 300px;
+        height: 300px; 
+    }
+    .projects__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .skills__item{
+        min-height: 40px;
+        background-size: 40px;
+    }
+    .skills__item span {
+        display: none;
+    }
+}
+
+@media(max-width: 991px){
+	.container .header .footer{
+		max-width: 720px;
+	}
+    .profile__title {
+        font-size: 2em;
+    }
+    .profile__subtitlt {
+        font-size: 1em;
+    }
+    .projects__btn {
+        display: none;
+    }
+    .projects__list {
+        display: block;
+    }
+    .projects__item{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .projects__img{
+        height: 300px;
+    }
+    .education__list {
+        display: block;
+    }
+    .education__item {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .education__lang{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contacts__list {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 767px){
+	.container .header .footer{
+		max-width: 540px;
+        padding: 0 15px;
+		width: auto;
+	}
+    .profile{
+        display: block;
+    }
+    .profile__img {
+        margin: 0 auto;
+    }
+    .profile__offer {
+        margin-top: 40px;
+        align-items: center;
+    }
+    .projects__code {
+        width: 80%;
+    }
+}
+
+@media(max-width: 575px){
+	.container .header .footer{
+        max-width: 540px;
+	}
+    section {
+        padding: 70px 0;
+    }
+    h2 {
+        margin-bottom: 30px;
+    }
+    .header {
+        display: none;
+    }
+    .skills{
+        display: none;
+    }
+    .about__desc {
+        width: 90%;
+        padding: 10px;
+    }
+    .projects__code{
+        display: none;
+    }
+    .education__item {
+        width: 90%;
+        padding: 20px;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__year{
+        margin: 30px 0;
+    }
+}
