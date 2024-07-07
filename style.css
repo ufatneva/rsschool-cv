@@ -168,3 +168,68 @@ img{
     text-shadow: 0 2px 10px rgba(218, 55, 169, 0.9);
 	box-shadow: 0 2px 10px rgba(218, 55, 169, 0.9);
 }
+
+/*main__skills*/
+
+.skills{
+    background-color: #cddbe3;
+    text-align: center;
+}
+
+.skills__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills__item:nth-child(2n+1){
+    margin-top: 80px;
+}
+
+.skills__item{
+    display: flex;
+    min-height: 30px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left top;
+}
+
+.skills__item span{
+    display: block;
+}
+
+.skills__item_html{
+    background-image: url('./assets/icon/html.svg');
+}
+
+.skills__item_css{
+    background-image: url('./assets/icon/css.svg');
+}
+
+.skills__item_bem{
+    background-image: url('./assets/icon/bem.svg');
+}
+
+.skills__item_bst{
+    background-image: url('./assets/icon/bst.svg');
+}
+
+.skills__item_wp{
+    background-image: url('./assets/icon/wp.svg');
+}
+
+.skills__item_js{
+    background-image: url('./assets/icon/js.svg');
+}
+
+.skills__item_jq{
+    background-image: url('./assets/icon/jq.svg');
+}
+
+.skills__item_fg{
+    background-image: url('./assets/icon/fg.svg');
+}
+
+.skills__item_ps{
+    background-image: url('./assets/icon/ps.svg');
+}
